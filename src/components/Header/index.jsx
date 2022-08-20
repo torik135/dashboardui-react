@@ -10,7 +10,7 @@ import { ProfilePic } from '../ProfilePic';
 const Header = (props) => {
   const { text, perusahaan } = props;
   return (
-    <div className='flex flex-row items-center p-4 justify-between'>
+    <div className='flex flex-row items-center p-4'>
       <div className='flex items-center'>
         {text} <ChevRightIcon /> <b>{perusahaan}</b>
       </div>
