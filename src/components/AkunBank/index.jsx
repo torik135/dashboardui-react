@@ -7,14 +7,17 @@ import {
 import akunBankData from '../../data/akunBankData';
 
 const cardStyle =
-  'bg-gray-500 h-[5rem] w-[8rem] rounded-md text-white font-extrabold m-2 content-end';
+  'bg-gradient-to-r from-green-400 to-blue-400 h-[5rem] w-[8rem] rounded-md text-white font-extrabold m-2 content-end';
 
 const ButtonComp = (props) => {
   const { text, onClick } = props;
   return (
-    <div className='flex items-center p-2 px-3 bg-gray-400 rounded text-white text-xs hover:scale-90 hover:cursor-pointer' onClick={onClick}>
+    <div
+      className='flex items-center p-2 px-3 bg-darkGreen rounded text-white text-xs hover:scale-90 hover:cursor-pointer'
+      onClick={onClick}
+    >
       <PlusIcon className='mx-3' />
-      <p>{text}</p>
+      <p className='font-bold'>{text}</p>
     </div>
   );
 };

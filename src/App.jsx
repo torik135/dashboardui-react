@@ -3,7 +3,7 @@ import { Mainlayout } from './layouts/Mainlayout';
 
 function App() {
   return (
-    <div className='App bg-gray-400'>
+    <div className='App bg-lightGreen'>
       <Mainlayout />
     </div>
   );

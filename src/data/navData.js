@@ -11,7 +11,6 @@ import {
   FiCommand as CommandIcon,
   FiBox as BoxIcon,
   FiArchive as ArchiveIcon,
-  FiServer as ServerIcon,
 } from 'react-icons/fi';
 
 const navData = [
@@ -64,11 +63,6 @@ const navData = [
     link: '#money',
     icon: <MoneyIcon />,
     text: 'Money',
-  },
-  {
-    link: '#server',
-    icon: <ServerIcon />,
-    text: 'Server',
   },
 ];
 

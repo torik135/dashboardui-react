@@ -22,7 +22,7 @@ const Relasi = () => {
         <p className='font-extrabold text-xl'>Relasi</p>
         <a
           href='#lihatsemuarelasi'
-          className='text-md hover:scale-90 hover:cursor-pointer'
+          className='text-md hover:scale-90 hover:cursor-pointer text-darkGreen'
         >
           Lihat Semua
         </a>

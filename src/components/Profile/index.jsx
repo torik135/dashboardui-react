@@ -14,7 +14,7 @@ const Profile = (props) => {
   return (
     <div className='flex flex-col min-h-[65rem] min-w-[20rem] mb-[4rem] rounded-md shadow-lg bg-white'>
       {/* img */}
-      <div className='border h-[8rem] min-w-[20rem] rounded-t-md bg-gray-300'></div>
+      <div className='border h-[8rem] min-w-[20rem] rounded-t-md bg-gradient-to-r from-green-400 to-blue-400'></div>
       <div className='h-[3rem] px-[.5rem] pb-[1rem]'>
         {/* logo */}
         <div className='relative'>
