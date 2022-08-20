@@ -5,6 +5,7 @@ import { Profile } from '../../components/Profile';
 import { Lokasi } from '../../components/Lokasi';
 import { AkunBank } from '../../components/AkunBank';
 import { Relasi } from '../../components/Relasi';
+import { Aktivitas } from '../../components/Aktivitas';
 
 import { FaAtlassian as LogoIcon } from 'react-icons/fa';
 
@@ -12,7 +13,7 @@ import navData from '../../data/navData';
 
 const Mainlayout = () => {
   return (
-    <div className='flex flex-row gap-[1rem]'>
+    <div className='flex flex-row gap-[1rem] mr-3'>
       {/* nav */}
       <Nav logo={<LogoIcon />}>
         {navData.map((item) => (
@@ -43,7 +44,7 @@ const Mainlayout = () => {
                   <Relasi />
                 </div>
 
-                <div>aktivitas</div>
+                <Aktivitas />
               </div>
             </div>
           </div>
