@@ -4,7 +4,7 @@ import {
   BsToggleOn as Aktifcon,
   BsGlobe as WebIcon,
   BsEnvelope as EmailIcon,
-  BsTelephoneFill as TelpIcon,
+  BsTelephone as TelpIcon,
 } from 'react-icons/bs';
 
 const pTextStyles = 'pb-2 pt-4 text-sm text-gray-500';
