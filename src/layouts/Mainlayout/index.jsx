@@ -4,6 +4,7 @@ import { Navitem } from '../../components/Navitem';
 import { Profile } from '../../components/Profile';
 import { Lokasi } from '../../components/Lokasi';
 import { AkunBank } from '../../components/AkunBank';
+import { Relasi } from '../../components/Relasi';
 
 import { FaAtlassian as LogoIcon } from 'react-icons/fa';
 
@@ -37,9 +38,9 @@ const Mainlayout = () => {
               <Lokasi indukLen={20} Sublvl1Len={1} Sublvl2Len={3} />
 
               <div className='flex flex-row gap-[2rem]'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col gap-[2rem]'>
                   <AkunBank />
-                  <div>relasi</div>
+                  <Relasi />
                 </div>
 
                 <div>aktivitas</div>
