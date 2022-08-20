@@ -5,7 +5,7 @@ import {
 } from 'react-icons/bi';
 
 const divContStyle =
-  'flex bg-darkGreen p-2 rounded w-[15rem] h-[5rem] justify-between items-center';
+  'flex bg-darkGreen p-2 rounded w-[15rem] h-[5rem] justify-between items-center xl:w-[18rem] lg:w-[10rem]';
 const div2ContStyle = 'flex flex-col justify-end';
 const pQuantityStyle = 'font-extrabold text-right';
 const pTextStyle = 'text-sm font-light';
@@ -16,7 +16,7 @@ const Lokasi = (props) => {
   return (
     <div className='shadow-lg p-2 pt-[2rem] rounded-md bg-white'>
       <div className='flex justify-between pb-[1rem]'>
-        <p className='font-extrabold'>Lokasi</p>
+        <p className='font-bold lg:text-md'>Lokasi</p>
         <a href='#lihatsemua' className='hover:scale-90 hover:cursor-pointer text-darkGreen'>
           Lihat semua
         </a>

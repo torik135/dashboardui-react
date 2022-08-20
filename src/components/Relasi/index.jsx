@@ -19,7 +19,7 @@ const Relasi = () => {
   return (
     <div className='p-4 bg-white shadow-2xl rounded-md'>
       <div className='flex justify-between mb-5'>
-        <p className='font-extrabold text-xl'>Relasi</p>
+        <p className='font-bold lg:text-md'>Relasi</p>
         <a
           href='#lihatsemuarelasi'
           className='text-md hover:scale-90 hover:cursor-pointer text-darkGreen'
