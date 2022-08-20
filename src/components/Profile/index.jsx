@@ -12,7 +12,7 @@ const pTextStyles = 'pb-2 pt-4 text-sm text-gray-500';
 const Profile = (props) => {
   const { namaPerusahaan, servicePerusahaan } = props;
   return (
-    <div className='flex flex-col min-h-[65rem] min-w-[20rem] mb-[4rem] rounded-md shadow-lg'>
+    <div className='flex flex-col min-h-[65rem] min-w-[20rem] mb-[4rem] rounded-md shadow-lg bg-white'>
       {/* img */}
       <div className='border h-[8rem] min-w-[20rem] rounded-t-md bg-gray-300'></div>
       <div className='h-[3rem] px-[.5rem] pb-[1rem]'>
@@ -30,9 +30,11 @@ const Profile = (props) => {
         </div>
 
         {/* sunting profile */}
-        <div className='flex items-center justify-center gap-[.5rem] pt-[2rem] pb-[4rem] px-[.5rem]'>
-          <PencilIcon />
-          <span>Sunting profil</span>
+        <div className='pt-[2rem] pb-[4rem] px-[.5rem]'>
+          <a className='flex items-center justify-center gap-[.5rem]  hover:cursor-pointer hover:scale-90'>
+            <PencilIcon />
+            <span>Sunting profil</span>
+          </a>
         </div>
 
         {/* content */}
@@ -41,7 +43,7 @@ const Profile = (props) => {
           <p className={pTextStyles}>Status Perusahaan</p>
           <div className='flex justify-center items-center justify-between'>
             <p className='font-bold'>Aktif</p>
-            <Aktifcon className='text-xl' />
+            <Aktifcon className='text-4xl' />
           </div>
           {/* singkatan */}
           <p className={pTextStyles}>Singkatan</p>
@@ -63,7 +65,7 @@ const Profile = (props) => {
           <p className={pTextStyles}>E-mail</p>
           <div className='flex items-center gap-[1rem]'>
             <EmailIcon className='text-xl' />
-            <p className='font-bold'>mig@mitrasolusi.group</p>
+            <p className='font-bold underline'>mig@mitrasolusi.group</p>
           </div>
 
           {/* Telp */}
@@ -77,7 +79,7 @@ const Profile = (props) => {
           <p className={pTextStyles}>Situs Web</p>
           <div className='flex items-center gap-[1rem]'>
             <WebIcon className='text-xl' />
-            <p className='font-bold'>mitramas.com</p>
+            <a className='font-bold underline' href="#mitramas.com">mitramas.com</a>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const AktivitasList = (props) => {
 
 const Aktivitas = () => {
   return (
-    <div className='bg-white shadow-2xl p-2 p-[2rem]'>
+    <div className='bg-white shadow-2xl p-2 p-[2rem] rounded-md'>
       <p className='font-extrabold text-xl mb-5'>Aktivitas</p>
       {aktivitasData.map((data) => (
         <AktivitasList

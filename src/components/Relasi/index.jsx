@@ -20,7 +20,12 @@ const Relasi = () => {
     <div className='p-4 bg-white shadow-2xl rounded-md'>
       <div className='flex justify-between mb-5'>
         <p className='font-extrabold text-xl'>Relasi</p>
-        <a href='#lihatsemuarelasi' className='text-md'>Lihat Semua</a>
+        <a
+          href='#lihatsemuarelasi'
+          className='text-md hover:scale-90 hover:cursor-pointer'
+        >
+          Lihat Semua
+        </a>
       </div>
       {relasiData.map((data) => (
         <RelasiList num={data.num} text={data.text} />

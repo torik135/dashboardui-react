@@ -14,12 +14,14 @@ const iconStyle = 'text-5xl';
 const Lokasi = (props) => {
   const { indukLen, Sublvl1Len, Sublvl2Len } = props;
   return (
-    <div className='shadow-lg p-2'>
+    <div className='shadow-lg p-2 rounded-md bg-white'>
       <div className='flex justify-between pb-[1rem]'>
         <p>Lokasi</p>
-        <a href="#lihatsemua">Lihat semua</a>
+        <a href='#lihatsemua' className='hover:scale-90 hover:cursor-pointer'>
+          Lihat semua
+        </a>
       </div>
-      <div className='flex gap-[1rem] text-white'>
+      <div className='flex gap-[1rem] text-white justify-between'>
         {/* induk */}
         <div className={divContStyle}>
           <IndukIcon className={iconStyle} />

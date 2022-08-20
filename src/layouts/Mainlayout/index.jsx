@@ -23,7 +23,7 @@ const Mainlayout = () => {
 
       <div className='w-[100vw]'>
         {/* header */}
-        <Header text='perusahaan' perusahaan='Mitramas' />
+        <Header text='Perusahaan' perusahaan='Mitramas' />
         {/* content */}
         <div className='flex gap-[2rem]'>
           {/* left */}

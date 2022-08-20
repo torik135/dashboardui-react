@@ -12,7 +12,7 @@ const cardStyle =
 const ButtonComp = (props) => {
   const { text, onClick } = props;
   return (
-    <div className='flex items-center p-2 px-3 bg-gray-400 rounded text-white text-xs'>
+    <div className='flex items-center p-2 px-3 bg-gray-400 rounded text-white text-xs hover:scale-90 hover:cursor-pointer' onClick={onClick}>
       <PlusIcon className='mx-3' />
       <p>{text}</p>
     </div>
@@ -33,7 +33,7 @@ const AkunList = (props) => {
         <div className='flex justify-between mb-5'>
           <p className='text-xs font-extrabold'>{namaBank}</p>
           {/* option */}
-          <div className='flex gap-3 mr-[-2.5rem]'>
+          <div className='flex gap-3 mr-[-5.5rem]'>
             <EditIcon
               className='text-green-500 font-extrabold'
               onClick={onEdit}
@@ -59,7 +59,7 @@ const AkunList = (props) => {
 
 const AkunBank = (props) => {
   return (
-    <div className='min-w-[22rem] min-h-[21rem] shadow-2xl rounded-md bg-white'>
+    <div className='min-w-[25rem] min-h-[21rem] shadow-2xl rounded-md bg-white'>
       {/* top */}
       <div className='flex justify-between p-4 pt-[2rem] mb-3'>
         <p className='font-bold text-xl'>Akun Bank</p>
