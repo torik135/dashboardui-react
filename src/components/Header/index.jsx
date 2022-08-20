@@ -10,15 +10,14 @@ import { ProfilePic } from '../ProfilePic';
 const Header = (props) => {
   const { text, perusahaan } = props;
   return (
-    <div className='flex flex-row items-center p-4'>
+    <div className='pt-[1rem] flex flex-row items-center p-4'>
       <div className='flex items-center'>
         {text} <ChevRightIcon /> <b>{perusahaan}</b>
       </div>
       <div className='flex flex-row gap-[1rem] items-center'>
-        
-          <SearchIcon />
-          <BellIcon />
-        
+        <SearchIcon />
+        <BellIcon />
+
         <div className='ml-[2rem]'>
           <ProfilePic
             img={<UserIcon />}
