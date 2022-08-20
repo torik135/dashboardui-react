@@ -62,7 +62,7 @@ const AkunBank = (props) => {
     <div className='min-w-[22rem] min-h-[21rem] shadow-2xl rounded-md bg-white'>
       {/* top */}
       <div className='flex justify-between p-4 pt-[2rem] mb-3'>
-        <p className='font-bold'>Akun Bank</p>
+        <p className='font-bold text-xl'>Akun Bank</p>
         <ButtonComp text='Tambah Akun Bank' onClick={() => {}} />
       </div>
       {/* list*/}
