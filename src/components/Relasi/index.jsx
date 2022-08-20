@@ -15,7 +15,7 @@ const RelasiList = (props) => {
   );
 };
 
-const Relasi = (props) => {
+const Relasi = () => {
   return (
     <div className='p-4 bg-white shadow-2xl rounded-md'>
       <div className='flex justify-between mb-5'>
