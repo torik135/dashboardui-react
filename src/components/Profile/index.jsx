@@ -1,10 +1,13 @@
 import { FaGlobeAsia as LogoIcon } from 'react-icons/fa';
 import {
   BsPencil as PencilIcon,
-  BsRecordCircle as ActiveIcon,
+  BsToggleOn as Aktifcon,
+  BsGlobe as WebIcon,
+  BsEnvelope as EmailIcon,
+  BsTelephoneFill as TelpIcon,
 } from 'react-icons/bs';
 
-const pTextStyles = 'pb-2 pt-2 text-sm text-gray-500';
+const pTextStyles = 'pb-2 pt-4 text-sm text-gray-500';
 
 const Profile = (props) => {
   const { namaPerusahaan, servicePerusahaan } = props;
@@ -38,7 +41,7 @@ const Profile = (props) => {
           <p className={pTextStyles}>Status Perusahaan</p>
           <div className='flex justify-center items-center justify-between'>
             <p className='font-bold'>Aktif</p>
-            <ActiveIcon className='text-xl'/>
+            <Aktifcon className='text-xl' />
           </div>
           {/* singkatan */}
           <p className={pTextStyles}>Singkatan</p>
@@ -59,24 +62,23 @@ const Profile = (props) => {
           {/* Email */}
           <p className={pTextStyles}>E-mail</p>
           <div className='flex items-center gap-[1rem]'>
-            <ActiveIcon className='text-xl'/>
+            <EmailIcon className='text-xl' />
             <p className='font-bold'>mig@mitrasolusi.group</p>
           </div>
 
           {/* Telp */}
           <p className={pTextStyles}>No. Telp</p>
           <div className='flex items-center gap-[1rem]'>
-            <ActiveIcon className='text-xl'/>
+            <TelpIcon className='text-xl' />
             <p className='font-bold'>021-5678-1234</p>
           </div>
 
           {/* web */}
           <p className={pTextStyles}>Situs Web</p>
           <div className='flex items-center gap-[1rem]'>
-            <ActiveIcon className='text-xl'/>
+            <WebIcon className='text-xl' />
             <p className='font-bold'>mitramas.com</p>
           </div>
-          
         </div>
       </div>
     </div>
