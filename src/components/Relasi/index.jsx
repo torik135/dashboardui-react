@@ -28,7 +28,7 @@ const Relasi = () => {
         </a>
       </div>
       {relasiData.map((data) => (
-        <RelasiList num={data.num} text={data.text} />
+        <RelasiList key={Math.random()} num={data.num} text={data.text} />
       ))}
     </div>
   );

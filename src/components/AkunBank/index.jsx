@@ -13,7 +13,7 @@ const ButtonComp = (props) => {
   const { text, onClick } = props;
   return (
     <div
-      className='flex items-center p-2 px-3 bg-darkGreen rounded text-white text-xs hover:scale-90 hover:cursor-pointer lg:px-2'
+      className='flex items-center p-2 px-3 bg-darkGreen rounded text-white text-xs hover:scale-90 hover:cursor-pointer lg:px-2 md:justify-center'
       onClick={onClick}
     >
       <PlusIcon className='mx-3' />
@@ -36,7 +36,7 @@ const AkunList = (props) => {
         <div className='flex justify-between mb-5'>
           <p className='text-xs font-extrabold'>{namaBank}</p>
           {/* option */}
-          <div className='flex gap-3 mr-[-5.5rem] lg:mr-[-2.5rem]'>
+          <div className='flex gap-3 mr-[-5.5rem] lg:mr-[-2.5rem] md:mr-[-2rem]'>
             <EditIcon
               className='text-green-500 font-extrabold'
               onClick={onEdit}
@@ -64,7 +64,7 @@ const AkunBank = (props) => {
   return (
     <div className='min-w-[25rem] min-h-[21rem] shadow-2xl rounded-md bg-white lg:min-w-[20rem]'>
       {/* top */}
-      <div className='flex justify-between p-4 pt-[2rem] mb-3'>
+      <div className='flex justify-between p-4 pt-[2rem] mb-3 lg:flex-row md:flex-col'>
         <p className='font-bold lg:text-md'>Akun Bank</p>
         <ButtonComp text='Tambah Akun Bank' onClick={() => {}} />
       </div>
