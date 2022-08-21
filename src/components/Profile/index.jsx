@@ -12,13 +12,13 @@ const pTextStyles = 'pb-2 pt-4 text-sm text-gray-500';
 const Profile = (props) => {
   const { namaPerusahaan, servicePerusahaan } = props;
   return (
-    <div className='flex flex-col min-h-[65rem] min-w-[20rem] mb-[4rem] rounded-md shadow-lg bg-white lg:min-w-[17rem] md:min-w-[15rem]'>
+    <div className='flex flex-col min-h-[65rem] min-w-[20rem] mb-[4rem] rounded-md shadow-lg bg-white lg:min-w-[17rem] md:min-w-[15rem] md:mb-[1rem] sm:min-w-[15rem] sm:mr-[1rem]'>
       {/* img */}
-      <div className='border h-[8rem] min-w-[20rem] rounded-t-md bg-gradient-to-r from-green-400 to-blue-400 lg:min-w-[17rem] md:min-w-[15rem]'></div>
+      <div className='border h-[8rem] min-w-[20rem] rounded-t-md bg-gradient-to-r from-green-400 to-blue-400 lg:min-w-[17rem] md:min-w-[15rem] sm:min-w-[15rem]'></div>
       <div className='h-[3rem] px-[.5rem] pb-[1rem]'>
         {/* logo */}
         <div className='relative'>
-          <div className='border-white border-4 rounded-full text-[7rem] absolute top-[-3.5rem] left-[6rem] bg-white lg:left-[4rem] md:left-[3.2rem]'>
+          <div className='border-white border-4 rounded-full text-[7rem] absolute top-[-3.5rem] left-[6rem] bg-white xl:left-[5rem] lg:left-[4rem] md:left-[3.2rem] sm:left-[6rem]'>
             <LogoIcon />
           </div>
         </div>
@@ -31,7 +31,7 @@ const Profile = (props) => {
 
         {/* sunting profile */}
         <div className='pt-[2rem] pb-[4rem] px-[.5rem]'>
-          <a className='flex items-center justify-center gap-[.5rem]  hover:cursor-pointer hover:scale-90'>
+          <a className='flex items-center justify-center gap-[.5rem]  hover:cursor-pointer hover:scale-90' href="#suntingprofile">
             <PencilIcon />
             <span>Sunting profil</span>
           </a>

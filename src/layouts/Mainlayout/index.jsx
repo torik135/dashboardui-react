@@ -21,11 +21,11 @@ const Mainlayout = () => {
         ))}
       </Nav>
 
-      <div className='w-[100vw] md:w-[88vw]'>
+      <div className='w-[100vw] lg:w-[100vw] md:w-[88vw] sm:w-[81vw] sm:mb-5'>
         {/* header */}
         <Header text='Perusahaan' perusahaan='Mitramas' />
         {/* content */}
-        <div className='flex gap-[2rem]'>
+        <div className='flex gap-[2rem] lg:flex-row md:flex-row sm:flex-col'>
           {/* left */}
           <Profile
             namaPerusahaan='Mitramas Infosys Global'
@@ -38,7 +38,7 @@ const Mainlayout = () => {
             <div className='flex flex-col gap-[2rem]'>
               <Lokasi indukLen={20} Sublvl1Len={1} Sublvl2Len={3} />
 
-              <div className='flex flex-row gap-[2rem]'>
+              <div className='flex flex-row gap-[2rem] laptop:flex-row lg:flex-row sm:flex-col'>
                 <div className='flex flex-col gap-[2rem]'>
                   <AkunBank />
                   <Relasi />

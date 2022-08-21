@@ -3,9 +3,10 @@ module.exports = {
   mode: 'JIT',
   theme: {
     screens: {
-      sm: '480px',
+      sm: '425px',
       md: '768px',
-      lg: '1024px',
+      laptop: '1024px',
+      lg: '1280px',
       xl: '1440px',
     },
     extend: {
