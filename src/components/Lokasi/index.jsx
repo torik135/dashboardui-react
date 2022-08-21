@@ -14,7 +14,7 @@ const iconStyle = 'text-5xl';
 const Lokasi = (props) => {
   const { indukLen, Sublvl1Len, Sublvl2Len } = props;
   return (
-    <div className='shadow-lg p-2 pt-[2rem] rounded-md bg-white  laptop:w-[40rem] xl:mr-[1rem] xl:w-[68vw] laptop:mr-[1rem] lg:w-[52rem] md:mr-[1rem] md:w-[25rem]'>
+    <div className='shadow-lg p-2 pt-[2rem] rounded-md bg-white  laptop:w-[40rem] xl:mr-[1rem] xl:w-[68vw] laptop:mr-[1rem] lg:w-[68vw] lg:mr-[1rem] md:mr-[1rem] md:w-[25rem]'>
       <div className='flex justify-between pb-[1rem]'>
         <p className='font-bold lg:text-md'>Lokasi</p>
         <a href='#lihatsemua' className='hover:scale-90 hover:cursor-pointer text-darkGreen'>
